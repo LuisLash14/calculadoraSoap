@@ -1,0 +1,9 @@
+quarkus:
+  cxf:
+    codegen:
+      wsdl2java:
+        includes: wsdl/*.wsdl
+    client:
+      myCalculator:
+        client-endpoint-url: http://www.dneonline.com/calculator.asmx
+        
